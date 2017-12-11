@@ -1,0 +1,25 @@
+.content {
+	background: #ececec;
+	margin-top: 70px;
+	border: 1px solid #cecece;
+}
+
+.content h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+.content h2, .content p {
+	padding: 10px 150px;
+}
+
+img {
+	width: 1080px;
+	height: 720px;
+}
+
+a {
+	color: #07b;
+	text-decoration: none;
+}
