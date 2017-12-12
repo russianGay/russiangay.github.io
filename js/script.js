@@ -6,7 +6,11 @@ $(function() {
 	links[1] = 'img/dildo.jpg';
 	// Menu array
 	var menu = new Array();
-	menu = [{name: 'Новости', link: 'index.html'}]
+	if (document.location.pathname != '/') {
+		menu = [{name: 'Новости', link: '../'}]
+	} else {
+		menu = [{name: 'Новости', link: '/'}]
+	}
 	// Set background from links
 	// My english is perfect, no ne ochen
 	function setBackground(number) {
